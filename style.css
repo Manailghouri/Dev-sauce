@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+:root {
+    --bg-clr: #6b7fba;
+    --white: #fff;
+    --rLeft-bg: #9ab3eb;
+    --primary-text-clr: #525252;
+    --heading-color: #2c3e50;
+    --icon-color: #34495e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: var(--bg-clr);
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--primary-text-clr);
+    padding: 20px;
+}
+
+h2 {
+    font-family: "Calligraffitti", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--heading-color);
+    font-size: 22px;
+}
+
+.RESUME {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    background: var(--white);
+    margin: 50px auto;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume_left {
+    width: 35%;
+    background: var(--rLeft-bg);
+    padding: 20px;
+    text-align: center;
+}
+
+.resume_right {
+    width: 65%;
+    background: var(--white);
+    padding: 25px;
+}
+
+.r_profile_pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.r_profile_pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.r_left_sub {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.r_left_sub h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.r_left_sub p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.r_Skills ul, .r_hobbies ul {
+    padding-left: 0;
+}
+
+.r_Skills ul li, .r_hobbies ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.r_Skills ul li i, .r_hobbies ul li i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: var(--icon-color);
+}
+
+.r_hobbies ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.r_hobbies ul li {
+    margin-bottom: 10px;
+}
+
+.r_hobbies ul li p:hover {
+    background: var(--icon-color);
+    color: var(--white);
+}
+
+.resume_right .r_namerole p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--primary-text-clr);
+}
+
+.resume_right .r_info {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--primary-text-clr);
+}
+
+.resume_right .r_info ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resume_right .r_info ul li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.resume_right .r_right_sub {
+    padding: 35px;
+    padding-bottom: 0;
+}
+
+.resume_right .r_right_sub h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--heading-color);
+}
+
+.resume_right .r_right_sub ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.resume_right .r_right_sub ul li div:first-child {
+    width: 25%;
+    margin-right: 15px;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+.resume_right .r_right_sub ul li div:last-child {
+    width: 75%;
+}
+
+.resume_right .r_right_sub p {
+    color: var(--primary-text-clr);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.resume_right .r_right_sub ul li div:last-child p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
